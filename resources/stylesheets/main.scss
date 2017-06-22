@@ -1,0 +1,97 @@
+//@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+@import 'variables';
+@import 'button';
+@import 'form';
+@import 'modal';
+@import 'flaticon';
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: $font-stack;
+  word-wrap: break-word;
+  color: $grey;
+  background-color: $light-grey;
+}
+
+#root {
+  width: 100%;
+}
+
+#counter-text {
+  color: $medium-grey;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 0 .625rem;
+}
+
+header {
+  background-color: $grey-with-red;
+  height: 3.75rem;
+  width: 100%;
+
+  .header-inner {
+    @extend .content;
+    height: 3.75rem;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+main {
+  padding: 1.2rem 0;
+  background-color: #fff;
+
+  .main-inner {
+    @extend .content;
+    min-height: 80vh;
+  }
+}
+
+footer {
+  width: 100%;
+  height: 6rem;
+  background-color: $light-grey;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 1.6rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+}
+
+h3, h4, p {
+  font-size: 1.0rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+header h1 {
+  margin: 0;
+  padding-top: .90rem;
+  color: $white;
+}
+
+.loading {
+  text-align: center;
+  color: $medium-grey;
+}
+
+.error-message {
+  text-align: center;
+  color: $red;
+}

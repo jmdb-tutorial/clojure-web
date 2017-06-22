@@ -1,0 +1,35 @@
+form > div {
+    margin-bottom: 1rem;
+}
+
+form label {
+  font-size: 1.2rem;
+}
+
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1rem;
+
+  &#description {
+    min-height: 10rem;
+  }
+}
+
+input[type=text].validation-error, textarea.validation-error {
+  border-color: $red;
+}
+
+.validation-error {
+  color: $red;
+  margin: 0;
+
+  &.server-error {
+    margin-top: .5rem
+  }
+}

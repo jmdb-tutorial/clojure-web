@@ -1,0 +1,32 @@
+.modal-inner {
+  // position: absolute;
+  background: rgb(255, 255, 255);
+  overflow: auto;
+  outline: none;
+  padding: 2.8rem;
+  width: 60%;
+  max-width: 40rem;
+  margin: 7rem auto 0 auto;
+  top: 6rem;
+  position: relative;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 2rem;
+  color: #008083;
+  h2 {
+    margin-top: 0
+  }
+}

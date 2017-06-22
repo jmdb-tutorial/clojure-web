@@ -1,0 +1,17 @@
+//Colors
+$white: #fff;
+$red: #BB0B20;
+$grey-with-red: #363035;
+$grey: #333333;
+$medium-grey: lighten($grey, 40%);
+$light-grey: lighten($grey, 70%);
+$panel-grey: lighten($grey, 78%);
+$petroleum: #008083;
+$petroleum-darker: darken($petroleum,5%);
+
+// Typography
+$font-stack: 'PT Sans', sans-serif;
+
+// Borders
+$border-red: solid 0.2rem #BB0B20;
+$border-grey: solid 0.05rem $medium-grey;
