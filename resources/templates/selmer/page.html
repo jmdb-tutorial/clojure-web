@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>{% block title %}Some demo page which I haven't given a title to yet{% endblock %}</title>
+        <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    </head>
+
+    
+    <body>
+        <header>
+            <div class="header-inner">
+                <h1>{% block title %}Some demo page which I haven't given a title to yet{% endblock %}</h1>
+            </div>
+        </header>
+        <main>
+            <div class="content">
+                {% block content %}Content is missing for this page!{% endblock %}
+            </div>
+        </main>
+        <footer>
+            (c) Jim Barritt, styles by Andrei Biasorozvanny           
+        </footer>
+    </body>
+</html>

@@ -4,7 +4,10 @@
   :min-lein-version "2.0.0"
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [compojure "1.5.1"]
-                 [ring/ring-defaults "0.2.1"]]
+                 [ring/ring-defaults "0.2.1"]
+                 [clj-jade "0.1.7"]
+                 [clj-time "0.13.0"]
+                 [selmer "1.0.4"]]
   :plugins [[lein-ring "0.9.7"]
             ;;[yogthos/lein-sass "0.1.1"]
             [lein-sassy "1.0.8"]

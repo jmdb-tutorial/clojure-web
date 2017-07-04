@@ -1,0 +1,18 @@
+html
+    head
+        title This is a demonstration of templating with Jade
+        link(href="/css/main.css", rel="stylesheet", media="screen")
+
+
+body
+    header
+        div.header-inner
+            h1
+                block title
+
+    main
+        div.content
+            block page-content
+
+    footer
+        p Some footer
